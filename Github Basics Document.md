@@ -1,8 +1,6 @@
 # What to Expect
 
-This file summarizes the git commands we talked about on the 4th FCA Bootcamp session (10/07/2024). Each command is sectioned off by an h1 title (like the "What to Expect" above), so if there is a command that interests you then you can use quickly jump to it. Additionally, with each command you'll find subsections of simple errors with possible causes in case you ever need to troubleshoot. 
-
-Here are some quick housekeeping notes before we begin. We will be reviewing all the commands as Terminal/Command Prompt commands, but if you wish to follow along via a GUI tool like Github Desktop feel free. We recommend following along with the git CLI (Command Line Interface), though, since knowing how to navigate that environment is an equally valuable skill. Additionally, this document is "opinionated", meaning that we will discuss commands alongside certain good practices. What this means for you is that this is not the *only* way to use these git commands, but following these practices will guarantee that you don't run into any troublesome issues during your git journey. With that said, happy reading!
+This file summarizes the git commands. Each command is sectioned off by an h1 title (like the "What to Expect" above), so if there is a command that interests you then you can use quickly jump to it. Additionally, with each command you'll find subsections of simple errors with possible causes in case you ever need to troubleshoot. 
 
 # Install `git`
 
@@ -57,7 +55,7 @@ Once you make your text file and write whatever you want, it's time to actually 
 ```
 git remote add <remote_name> <remote_link>
 // A common remote name is "origin", so your command might look something like
-git remote add origin https://github.com/NickFalletta29/FCA_bootcamp.git
+git remote add origin https://github.com/[repository]
 ```
 
 You can verify if you successfully added the remote by using the following command.
@@ -193,10 +191,6 @@ This command by default uses the `vi` text editor if installed, so if you find y
 # Forking Repositories
 
 One important aspect of open source development is the concept of forking a repository. The idea is that you can essentially copy a repository's branch one-for-one and bring it under your domain. For example, if there exists a repository at `UserA/ReallyCoolRepository`, a forked repository would be stored at `<your account>/ReallyCoolRepository` (although the name can be changed). Forking is similar to branching in concept, but the purpose/intention is completely different. When you make a branch, the end goal is to merge the code into some higher branch and ultimately delete the branch. When you fork a repository, though, there's no way to "push" your changes back into the original repository. The idea behind forking is that you can do whatever you want to the repository without affecting the original. If you find a repository that you wish to fork, you can easily do so by clicking the "fork" button to the upper right of the `clone` button in Github. Forking is less of a core feature of git and more of a core feature for open source development as a whole. As such, you may find yourself seldom using the feature if you aren't actively contributing in the open source world.
-
-# Conclusion
-
-This summarizes everything we discussed during our Github Bootcamp. While this document is far from exhaustive, the commands listed here are core commands that you will find yourself using commonly as you use git. Even if you wish to use git through some visual tool (i.e. Github Desktop or VS Code's git panel), everything we discussed here is still applicable. Happy coding, and if you ever have any doubts don't hesitate to reach out to any of the FCA executive members for assistance!
 
 
 
